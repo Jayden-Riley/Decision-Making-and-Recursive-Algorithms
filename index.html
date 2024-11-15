@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making and Recursion Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Decision Making and Recursion Tasks</h1>
+
+    <div>
+        <h3>Leap Year Checker:</h3>
+        <button onclick="isLeapYear(2024)">Check Leap Year for 2024</button>
+        <button onclick="isLeapYear(1900)">Check Leap Year for 1900</button>
+    </div>
+
+    <div>
+        <h3>Ticket Pricing:</h3>
+        <button onclick="ticketPrice(10)">Ticket for Age 10</button>
+        <button onclick="ticketPrice(15)">Ticket for Age 15</button>
+        <button onclick="ticketPrice(25)">Ticket for Age 25</button>
+    </div>
+
+    <div>
+        <h3>Fibonacci Sequence:</h3>
+        <button onclick="alert(fibonacci(6))">Fibonacci of 6</button>
+        <button onclick="alert(fibonacci(10))">Fibonacci of 10</button>
+    </div>
+
+    <div>
+        <h3>Palindrome Checker:</h3>
+        <button onclick="alert(isPalindrome('A man, a plan, a canal: Panama'))">Check Palindrome 1</button>
+        <button onclick="alert(isPalindrome('hello'))">Check Palindrome 2</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
